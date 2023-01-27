@@ -1,0 +1,23 @@
+//Reset Styles
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+//Colors 
+$darkCyan: hsl(185, 75%, 39%);
+$darkDesaturatedBlue: hsl(229, 23%, 23%);
+$darkGrayishBlue: hsl(227, 10%, 46%);
+$darkGray: hsl(0, 0%, 59%);
+
+//Font size
+$medFontSize: 18px;
+
+//Breakpoints
+$breakpoint-mobile: 376px;
